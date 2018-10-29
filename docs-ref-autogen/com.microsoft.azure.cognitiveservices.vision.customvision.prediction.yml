@@ -42,7 +42,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/vision/customvision/prediction/src/main/java/com/microsoft/azure/cognitiveservices/vision/customvision/prediction/CustomVisionPredictionManager.java
     startLine: 6
-  summary: <p>This package contains the classes for PredictionEndpoint.</p>
+  summary: "<p>This package contains the classes for PredictionEndpoint.</p>"
   syntax:
     content: package com.microsoft.azure.cognitiveservices.vision.customvision.prediction
 references:

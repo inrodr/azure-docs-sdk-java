@@ -27,10 +27,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 27
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>This class contains values that restrict the successful completion of PageBlob operations to certain conditions. It may be set to null if no access conditions are desired.</p>
-
-    <p>Please refer to the request header section <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-page">here</a> for more conceptual information. </p>
+  summary: "<p>This class contains values that restrict the successful completion of PageBlob operations to certain conditions. It may be set to null if no access conditions are desired.</p>\r\n<p>Please refer to the request header section <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-page\">here</a> for more conceptual information. </p>"
   syntax: &o1
     content: public class PageBlobAccessConditions
   inheritance:
@@ -51,12 +48,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 73
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">LeaseAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">LeaseAccessConditions</xref>\r\n</p>"
   syntax:
     content: public LeaseAccessConditions leaseAccessConditions()
     return:
@@ -77,12 +69,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 58
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">ModifiedAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">ModifiedAccessConditions</xref>\r\n</p>"
   syntax:
     content: public ModifiedAccessConditions modifiedAccessConditions()
     return:
@@ -102,7 +89,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 32
   package: com.microsoft.azure.storage.blob
-  summary: <p>An object representing no access conditions. </p>
+  summary: "<p>An object representing no access conditions. </p>"
   syntax:
     content: public static final PageBlobAccessConditions NONE= new PageBlobAccessConditions()
     return:
@@ -141,12 +128,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 43
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">SequenceNumberAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">SequenceNumberAccessConditions</xref>\r\n</p>"
   syntax:
     content: public SequenceNumberAccessConditions sequenceNumberAccessConditions()
     return:
@@ -167,12 +149,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 80
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">LeaseAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">LeaseAccessConditions</xref>\r\n</p>"
   syntax:
     content: public PageBlobAccessConditions withLeaseAccessConditions(LeaseAccessConditions leaseAccessConditions)
     parameters:
@@ -196,12 +173,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 65
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">ModifiedAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">ModifiedAccessConditions</xref>\r\n</p>"
   syntax:
     content: public PageBlobAccessConditions withModifiedAccessConditions(ModifiedAccessConditions modifiedAccessConditions)
     parameters:
@@ -225,12 +197,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobAccessConditions.java
     startLine: 50
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">SequenceNumberAccessConditions</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">SequenceNumberAccessConditions</xref>\r\n</p>"
   syntax:
     content: public PageBlobAccessConditions withSequenceNumberAccessConditions(SequenceNumberAccessConditions sequenceNumberAccessConditions)
     parameters:

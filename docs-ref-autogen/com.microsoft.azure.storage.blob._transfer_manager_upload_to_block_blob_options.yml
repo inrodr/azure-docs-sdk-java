@@ -26,10 +26,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerUploadToBlockBlobOptions.java
     startLine: 22
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Configures the parallel upload behavior for methods on the<code>TransferManager 
-
-        </code> . </p>
+  summary: "<p>Configures the parallel upload behavior for methods on the<code>TransferManager \r\n    </code> . </p>"
   syntax: &o1
     content: public class TransferManagerUploadToBlockBlobOptions
   inheritance:
@@ -69,7 +66,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerUploadToBlockBlobOptions.java
     startLine: 27
   package: com.microsoft.azure.storage.blob
-  summary: <p>An object which represents the default parallel upload options. </p>
+  summary: "<p>An object which represents the default parallel upload options. </p>"
   syntax:
     content: >-
       public static final TransferManagerUploadToBlockBlobOptions DEFAULT= new TransferManagerUploadToBlockBlobOptions(null,
@@ -172,10 +169,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerUploadToBlockBlobOptions.java
     startLine: 80
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new object that configures the parallel upload behavior. Null may be passed to accept the default behavior.</p>
-
-    <p></p>
+  summary: "<p>Creates a new object that configures the parallel upload behavior. Null may be passed to accept the default behavior.</p>\r\n<p></p>"
   syntax:
     content: public TransferManagerUploadToBlockBlobOptions(IProgressReceiver progressReceiver, BlobHTTPHeaders httpHeaders, Metadata metadata, BlobAccessConditions accessConditions, Integer parallelism)
     parameters:

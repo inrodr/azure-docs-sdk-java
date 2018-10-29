@@ -26,7 +26,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 36
   package: com.microsoft.azure.storage.blob
-  summary: <p>Represents a URL to an append blob. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._container_u_r_l" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular append blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a></p>
+  summary: "<p>Represents a URL to an append blob. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob._container_u_r_l\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular append blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a></p>"
   syntax: &o1
     content: public class AppendBlobURL extends BlobURL
   inheritance:
@@ -76,12 +76,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 58
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a<code>AppendBlobURL 
-
-        </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>
-
-    <p></p>
+  summary: "<p>Creates a<code>AppendBlobURL \r\n    </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>\r\n<p></p>"
   syntax:
     content: public AppendBlobURL(URL url, HttpPipeline pipeline)
     parameters:
@@ -113,14 +108,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 158
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Commits a new block of data to the end of the existing append blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/append-block">Azure Docs</a>.</p>
-
-    <p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable 
-
-        </code> must produce the same data each time it is subscribed to.</p>
-
-    <p></p>
+  summary: "<p>Commits a new block of data to the end of the existing append blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/append-block\">Azure Docs</a>.</p>\r\n<p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable \r\n    </code> must produce the same data each time it is subscribed to.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=append_blob \"Sample code for AppendBlobURL.appendBlock\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<AppendBlobAppendBlockResponse> appendBlock(Flowable<ByteBuffer> data, long length, AppendBlobAccessConditions appendBlobAccessConditions, Context context)
@@ -180,10 +168,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 118
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a 0-length append blob. Call AppendBlock to append data to an append blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Creates a 0-length append blob. Call AppendBlock to append data to an append blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/put-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=append_blob \"Sample code for AppendBlobURL.create\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<AppendBlobCreateResponse> create(BlobHTTPHeaders headers, Metadata metadata, BlobAccessConditions accessConditions, Context context)
@@ -246,7 +231,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 41
   package: com.microsoft.azure.storage.blob
-  summary: <p>Indicates the maximum number of bytes that can be sent in a call to appendBlock. </p>
+  summary: "<p>Indicates the maximum number of bytes that can be sent in a call to appendBlock. </p>"
   syntax:
     content: public static final int MAX_APPEND_BLOCK_BYTES= 4 * Constants.MB
     return:
@@ -266,7 +251,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 46
   package: com.microsoft.azure.storage.blob
-  summary: <p>Indicates the maximum number of blocks allowed in an append blob. </p>
+  summary: "<p>Indicates the maximum number of blocks allowed in an append blob. </p>"
   syntax:
     content: public static final int MAX_BLOCKS= 50000
     return:
@@ -287,10 +272,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 70
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new <xref uid="com.microsoft.azure.storage.blob._append_blob_u_r_l" data-throw-if-not-resolved="false">AppendBlobURL</xref> with the given pipeline.</p>
-
-    <p></p>
+  summary: "<p>Creates a new <xref uid=\"com.microsoft.azure.storage.blob._append_blob_u_r_l\" data-throw-if-not-resolved=\"false\">AppendBlobURL</xref> with the given pipeline.</p>\r\n<p></p>"
   syntax:
     content: public AppendBlobURL withPipeline(HttpPipeline pipeline)
     parameters:
@@ -322,12 +304,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AppendBlobURL.java
     startLine: 88
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new<code>AppendBlobURL 
-
-        </code> with the given snapshot.</p>
-
-    <p></p>
+  summary: "<p>Creates a new<code>AppendBlobURL \r\n    </code> with the given snapshot.</p>\r\n<p></p>"
   syntax:
     content: public AppendBlobURL withSnapshot(String snapshot)
     parameters:

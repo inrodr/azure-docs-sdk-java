@@ -27,7 +27,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 21
   package: com.microsoft.azure.storage.blob
-  summary: <p>Defines options available to configure the behavior of a call to listContainersSegment on a <xref uid="com.microsoft.azure.storage.blob._service_u_r_l" data-throw-if-not-resolved="false">ServiceURL</xref> object. See the constructor for details on each of the options. Null may be passed in place of an object of this type if no options are desirable. </p>
+  summary: "<p>Defines options available to configure the behavior of a call to listContainersSegment on a <xref uid=\"com.microsoft.azure.storage.blob._service_u_r_l\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object. See the constructor for details on each of the options. Null may be passed in place of an object of this type if no options are desirable. </p>"
   syntax: &o1
     content: public class ListContainersOptions
   inheritance:
@@ -70,12 +70,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 38
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.azure.storage.blob._container_listing_details" data-throw-if-not-resolved="false">ContainerListingDetails</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"com.microsoft.azure.storage.blob._container_listing_details\" data-throw-if-not-resolved=\"false\">ContainerListingDetails</xref>\r\n</p>"
   syntax:
     content: public ContainerListingDetails details()
     return:
@@ -114,7 +109,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 69
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies the maximum number of blobs to return, including all BlobPrefix elements. If the request does not specify maxResults or specifies a value greater than 5,000, the server will return up to 5,000 items. </p>
+  summary: "<p>Specifies the maximum number of blobs to return, including all BlobPrefix elements. If the request does not specify maxResults or specifies a value greater than 5,000, the server will return up to 5,000 items. </p>"
   syntax:
     content: public Integer maxResults()
     return:
@@ -135,7 +130,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 53
   package: com.microsoft.azure.storage.blob
-  summary: <p>Filters the results to return only blobs whose names begin with the specified prefix. * </p>
+  summary: "<p>Filters the results to return only blobs whose names begin with the specified prefix. * </p>"
   syntax:
     content: public String prefix()
     return:
@@ -156,12 +151,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 45
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.azure.storage.blob._container_listing_details" data-throw-if-not-resolved="false">ContainerListingDetails</xref>
-
-    </p>
+  summary: "<p>\r\n  <xref uid=\"com.microsoft.azure.storage.blob._container_listing_details\" data-throw-if-not-resolved=\"false\">ContainerListingDetails</xref>\r\n</p>"
   syntax:
     content: public ListContainersOptions withDetails(ContainerListingDetails details)
     parameters:
@@ -185,7 +175,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 77
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies the maximum number of blobs to return, including all BlobPrefix elements. If the request does not specify maxResults or specifies a value greater than 5,000, the server will return up to 5,000 items. </p>
+  summary: "<p>Specifies the maximum number of blobs to return, including all BlobPrefix elements. If the request does not specify maxResults or specifies a value greater than 5,000, the server will return up to 5,000 items. </p>"
   syntax:
     content: public ListContainersOptions withMaxResults(Integer maxResults)
     parameters:
@@ -209,7 +199,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/ListContainersOptions.java
     startLine: 60
   package: com.microsoft.azure.storage.blob
-  summary: <p>Filters the results to return only blobs whose names begin with the specified prefix. * </p>
+  summary: "<p>Filters the results to return only blobs whose names begin with the specified prefix. * </p>"
   syntax:
     content: public ListContainersOptions withPrefix(String prefix)
     parameters:

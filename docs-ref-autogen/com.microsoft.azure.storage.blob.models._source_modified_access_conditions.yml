@@ -27,7 +27,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 22
   package: com.microsoft.azure.storage.blob.models
-  summary: <p>Additional parameters for startCopyFromURL operation. </p>
+  summary: "<p>Additional parameters for startCopyFromURL operation. </p>"
   syntax: &o1
     content: public class SourceModifiedAccessConditions
   inheritance:
@@ -48,10 +48,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 108
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Get the sourceIfMatch value.</p>
-
-    <p></p>
+  summary: "<p>Get the sourceIfMatch value.</p>\r\n<p></p>"
   syntax:
     content: public String sourceIfMatch()
     return:
@@ -73,10 +70,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 54
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Get the sourceIfModifiedSince value.</p>
-
-    <p></p>
+  summary: "<p>Get the sourceIfModifiedSince value.</p>\r\n<p></p>"
   syntax:
     content: public OffsetDateTime sourceIfModifiedSince()
     return:
@@ -98,10 +92,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 128
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Get the sourceIfNoneMatch value.</p>
-
-    <p></p>
+  summary: "<p>Get the sourceIfNoneMatch value.</p>\r\n<p></p>"
   syntax:
     content: public String sourceIfNoneMatch()
     return:
@@ -123,10 +114,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 81
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Get the sourceIfUnmodifiedSince value.</p>
-
-    <p></p>
+  summary: "<p>Get the sourceIfUnmodifiedSince value.</p>\r\n<p></p>"
   syntax:
     content: public OffsetDateTime sourceIfUnmodifiedSince()
     return:
@@ -148,10 +136,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 118
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Set the sourceIfMatch value.</p>
-
-    <p></p>
+  summary: "<p>Set the sourceIfMatch value.</p>\r\n<p></p>"
   syntax:
     content: public SourceModifiedAccessConditions withSourceIfMatch(String sourceIfMatch)
     parameters:
@@ -177,10 +162,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 67
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Set the sourceIfModifiedSince value.</p>
-
-    <p></p>
+  summary: "<p>Set the sourceIfModifiedSince value.</p>\r\n<p></p>"
   syntax:
     content: public SourceModifiedAccessConditions withSourceIfModifiedSince(OffsetDateTime sourceIfModifiedSince)
     parameters:
@@ -206,10 +188,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 138
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Set the sourceIfNoneMatch value.</p>
-
-    <p></p>
+  summary: "<p>Set the sourceIfNoneMatch value.</p>\r\n<p></p>"
   syntax:
     content: public SourceModifiedAccessConditions withSourceIfNoneMatch(String sourceIfNoneMatch)
     parameters:
@@ -235,10 +214,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/models/SourceModifiedAccessConditions.java
     startLine: 94
   package: com.microsoft.azure.storage.blob.models
-  summary: >-
-    <p>Set the sourceIfUnmodifiedSince value.</p>
-
-    <p></p>
+  summary: "<p>Set the sourceIfUnmodifiedSince value.</p>\r\n<p></p>"
   syntax:
     content: public SourceModifiedAccessConditions withSourceIfUnmodifiedSince(OffsetDateTime sourceIfUnmodifiedSince)
     parameters:

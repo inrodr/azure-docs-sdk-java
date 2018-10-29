@@ -396,7 +396,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/Apps.java
     startLine: 8
-  summary: <p>This package contains the classes for LUISAuthoringClient. </p>
+  summary: "<p>This package contains the classes for LUISAuthoringClient. </p>"
   syntax:
     content: package com.microsoft.azure.cognitiveservices.language.luis.authoring
 references:

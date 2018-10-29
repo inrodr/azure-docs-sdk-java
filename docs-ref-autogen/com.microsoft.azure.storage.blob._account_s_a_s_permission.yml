@@ -38,7 +38,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 25
   package: com.microsoft.azure.storage.blob
-  summary: <p>This is a helper class to construct a string representing the permissions granted by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on an <xref uid="com.microsoft.azure.storage.blob._account_s_a_s_signature_values" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the permissions granted by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on an <xref uid=\"com.microsoft.azure.storage.blob._account_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>"
   syntax: &o1
     content: public class AccountSASPermission
   inheritance:
@@ -59,10 +59,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 46
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Initializes an<code>AccountSASPermission 
-
-        </code> object with all fields set to false. </p>
+  summary: "<p>Initializes an<code>AccountSASPermission \r\n    </code> object with all fields set to false. </p>"
   syntax:
     content: public AccountSASPermission()
 - uid: com.microsoft.azure.storage.blob._account_s_a_s_permission.add()
@@ -81,7 +78,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 66
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to add messages, table entities, and append to blobs granted. </p>
+  summary: "<p>Permission to add messages, table entities, and append to blobs granted. </p>"
   syntax:
     content: public boolean add()
     return:
@@ -102,7 +99,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 81
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to create blobs and files granted. </p>
+  summary: "<p>Permission to create blobs and files granted. </p>"
   syntax:
     content: public boolean create()
     return:
@@ -123,7 +120,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 111
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to delete resources granted. </p>
+  summary: "<p>Permission to delete resources granted. </p>"
   syntax:
     content: public boolean delete()
     return:
@@ -144,7 +141,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 126
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to list blob containers, blobs, shares, directories, and files granted. </p>
+  summary: "<p>Permission to list blob containers, blobs, shares, directories, and files granted. </p>"
   syntax:
     content: public boolean list()
     return:
@@ -165,14 +162,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 225
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates an<code>AccountSASPermission 
-
-        </code> from the specified permissions string. This method will throw an <code>IllegalArgumentException 
-
-        </code> if it encounters a character that does not correspond to a valid permission.</p>
-
-    <p></p>
+  summary: "<p>Creates an<code>AccountSASPermission \r\n    </code> from the specified permissions string. This method will throw an <code>IllegalArgumentException \r\n    </code> if it encounters a character that does not correspond to a valid permission.</p>\r\n<p></p>"
   syntax:
     content: public static AccountSASPermission parse(String permString)
     parameters:
@@ -208,7 +198,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 156
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to get and delete messages granted. </p>
+  summary: "<p>Permission to get and delete messages granted. </p>"
   syntax:
     content: public boolean processMessages()
     return:
@@ -229,7 +219,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 51
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to read resources and list queues and tables granted. </p>
+  summary: "<p>Permission to read resources and list queues and tables granted. </p>"
   syntax:
     content: public boolean read()
     return:
@@ -250,12 +240,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 176
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Converts the given permissions to a<code>String 
-
-        </code> . Using this method will guarantee the permissions are in an order accepted by the service.</p>
-
-    <p></p>
+  summary: "<p>Converts the given permissions to a<code>String \r\n    </code> . Using this method will guarantee the permissions are in an order accepted by the service.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -282,7 +267,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 141
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permissions to update messages and table entities granted. </p>
+  summary: "<p>Permissions to update messages and table entities granted. </p>"
   syntax:
     content: public boolean update()
     return:
@@ -303,7 +288,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 73
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to add messages, table entities, and append to blobs granted. </p>
+  summary: "<p>Permission to add messages, table entities, and append to blobs granted. </p>"
   syntax:
     content: public AccountSASPermission withAdd(boolean add)
     parameters:
@@ -327,7 +312,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 88
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to create blobs and files granted. </p>
+  summary: "<p>Permission to create blobs and files granted. </p>"
   syntax:
     content: public AccountSASPermission withCreate(boolean create)
     parameters:
@@ -351,7 +336,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 118
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to delete resources granted. </p>
+  summary: "<p>Permission to delete resources granted. </p>"
   syntax:
     content: public AccountSASPermission withDelete(boolean delete)
     parameters:
@@ -375,7 +360,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 133
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to list blob containers, blobs, shares, directories, and files granted. </p>
+  summary: "<p>Permission to list blob containers, blobs, shares, directories, and files granted. </p>"
   syntax:
     content: public AccountSASPermission withList(boolean list)
     parameters:
@@ -399,7 +384,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 163
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to get and delete messages granted. </p>
+  summary: "<p>Permission to get and delete messages granted. </p>"
   syntax:
     content: public AccountSASPermission withProcessMessages(boolean processMessages)
     parameters:
@@ -423,7 +408,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 58
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to read resources and list queues and tables granted. </p>
+  summary: "<p>Permission to read resources and list queues and tables granted. </p>"
   syntax:
     content: public AccountSASPermission withRead(boolean read)
     parameters:
@@ -447,7 +432,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 148
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permissions to update messages and table entities granted. </p>
+  summary: "<p>Permissions to update messages and table entities granted. </p>"
   syntax:
     content: public AccountSASPermission withUpdate(boolean update)
     parameters:
@@ -471,7 +456,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 103
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to write resources granted. </p>
+  summary: "<p>Permission to write resources granted. </p>"
   syntax:
     content: public AccountSASPermission withWrite(boolean write)
     parameters:
@@ -495,7 +480,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 96
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to write resources granted. </p>
+  summary: "<p>Permission to write resources granted. </p>"
   syntax:
     content: public boolean write()
     return:

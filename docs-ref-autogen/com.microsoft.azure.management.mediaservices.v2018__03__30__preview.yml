@@ -353,7 +353,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/AacAudio.java
     startLine: 8
-  summary: <p>This package contains the classes for AzureMediaServices. </p>
+  summary: "<p>This package contains the classes for AzureMediaServices. </p>"
   syntax:
     content: package com.microsoft.azure.management.mediaservices.v2018_03_30_preview
 references:

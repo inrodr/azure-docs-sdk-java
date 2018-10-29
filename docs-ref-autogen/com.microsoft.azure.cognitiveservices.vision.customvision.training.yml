@@ -119,7 +119,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/vision/customvision/training/src/main/java/com/microsoft/azure/cognitiveservices/vision/customvision/training/CustomVisionTrainingManager.java
     startLine: 6
-  summary: <p>This package contains the classes for TrainingApi.</p>
+  summary: "<p>This package contains the classes for TrainingApi.</p>"
   syntax:
     content: package com.microsoft.azure.cognitiveservices.vision.customvision.training
 references:

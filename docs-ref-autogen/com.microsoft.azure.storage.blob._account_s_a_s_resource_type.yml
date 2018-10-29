@@ -28,7 +28,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 25
   package: com.microsoft.azure.storage.blob
-  summary: <p>This is a helper class to construct a string representing the resources accessible by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant access to that resource type. Once all the values are set, this should be serialized with toString and set as the resources field on an <xref uid="com.microsoft.azure.storage.blob._account_s_a_s_signature_values" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> object. It is possible to construct the resources string without this class, but the order of the resources is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the resources accessible by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant access to that resource type. Once all the values are set, this should be serialized with toString and set as the resources field on an <xref uid=\"com.microsoft.azure.storage.blob._account_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> object. It is possible to construct the resources string without this class, but the order of the resources is particular and this class guarantees correctness. </p>"
   syntax: &o1
     content: public class AccountSASResourceType
   inheritance:
@@ -49,10 +49,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 81
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Initializes an<code>AccountSASResourceType 
-
-        </code> object with all fields set to false. </p>
+  summary: "<p>Initializes an<code>AccountSASResourceType \r\n    </code> object with all fields set to false. </p>"
   syntax:
     content: public AccountSASResourceType()
 - uid: com.microsoft.azure.storage.blob._account_s_a_s_resource_type.container()
@@ -71,7 +68,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 51
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access container level APIs (Blob Containers, Tables, Queues, File Shares) granted. </p>
+  summary: "<p>Permission to access container level APIs (Blob Containers, Tables, Queues, File Shares) granted. </p>"
   syntax:
     content: public boolean container()
     return:
@@ -92,7 +89,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 66
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access object level APIs (Blobs, Table Entities, Queue Messages, Files) granted. </p>
+  summary: "<p>Permission to access object level APIs (Blobs, Table Entities, Queue Messages, Files) granted. </p>"
   syntax:
     content: public boolean object()
     return:
@@ -113,14 +110,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 120
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates an<code>AccountSASResourceType 
-
-        </code> from the specified resource types string. This method will throw an <code>IllegalArgumentException 
-
-        </code> if it encounters a character that does not correspond to a valid resource type.</p>
-
-    <p></p>
+  summary: "<p>Creates an<code>AccountSASResourceType \r\n    </code> from the specified resource types string. This method will throw an <code>IllegalArgumentException \r\n    </code> if it encounters a character that does not correspond to a valid resource type.</p>\r\n<p></p>"
   syntax:
     content: public static AccountSASResourceType parse(String resourceTypesString)
     parameters:
@@ -156,7 +146,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 36
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access service level APIs granted. </p>
+  summary: "<p>Permission to access service level APIs granted. </p>"
   syntax:
     content: public boolean service()
     return:
@@ -177,12 +167,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 91
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Converts the given resource types to a<code>String 
-
-        </code> . Using this method will guarantee the resource types are in an order accepted by the service.</p>
-
-    <p></p>
+  summary: "<p>Converts the given resource types to a<code>String \r\n    </code> . Using this method will guarantee the resource types are in an order accepted by the service.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -209,7 +194,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 58
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access container level APIs (Blob Containers, Tables, Queues, File Shares) granted. </p>
+  summary: "<p>Permission to access container level APIs (Blob Containers, Tables, Queues, File Shares) granted. </p>"
   syntax:
     content: public AccountSASResourceType withContainer(boolean container)
     parameters:
@@ -233,7 +218,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 73
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access object level APIs (Blobs, Table Entities, Queue Messages, Files) granted. </p>
+  summary: "<p>Permission to access object level APIs (Blobs, Table Entities, Queue Messages, Files) granted. </p>"
   syntax:
     content: public AccountSASResourceType withObject(boolean object)
     parameters:
@@ -257,7 +242,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASResourceType.java
     startLine: 43
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access service level APIs granted. </p>
+  summary: "<p>Permission to access service level APIs granted. </p>"
   syntax:
     content: public AccountSASResourceType withService(boolean service)
     parameters:

@@ -30,7 +30,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 38
   package: com.microsoft.azure.storage.blob
-  summary: <p>Represents a URL to a block blob. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._container_u_r_l" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a> for more information on block blobs. </p>
+  summary: "<p>Represents a URL to a block blob. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob._container_u_r_l\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a> for more information on block blobs. </p>"
   syntax: &o1
     content: public class BlockBlobURL extends BlobURL
   inheritance:
@@ -80,12 +80,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 65
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a<code>BlockBlobURL 
-
-        </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>
-
-    <p></p>
+  summary: "<p>Creates a<code>BlockBlobURL \r\n    </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>\r\n<p></p>"
   syntax:
     content: public BlockBlobURL(URL url, HttpPipeline pipeline)
     parameters:
@@ -117,12 +112,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 299
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Writes a blob by specifying the list of block IDs that are to make up the blob. In order to be written as part of a blob, a block must have been successfully written to the server in a prior stageBlock operation. You can call commitBlockList to update a blob by uploading only those blocks that have changed, then committing the new and existing blocks together. Any blocks not specified in the block list and permanently deleted. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-block-list">Azure Docs</a>.</p>
-
-    <p>For more efficient bulk-upload scenarios, please refer to the <xref uid="com.microsoft.azure.storage.blob._transfer_manager" data-throw-if-not-resolved="false">TransferManager</xref> for convenience methods.</p>
-
-    <p></p>
+  summary: "<p>Writes a blob by specifying the list of block IDs that are to make up the blob. In order to be written as part of a blob, a block must have been successfully written to the server in a prior stageBlock operation. You can call commitBlockList to update a blob by uploading only those blocks that have changed, then committing the new and existing blocks together. Any blocks not specified in the block list and permanently deleted. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/put-block-list\">Azure Docs</a>.</p>\r\n<p>For more efficient bulk-upload scenarios, please refer to the <xref uid=\"com.microsoft.azure.storage.blob._transfer_manager\" data-throw-if-not-resolved=\"false\">TransferManager</xref> for convenience methods.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=blocks \"Sample code for BlockBlobURL.commitBlockList\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<BlockBlobCommitBlockListResponse> commitBlockList(List<String> base64BlockIDs, BlobHTTPHeaders headers, Metadata metadata, BlobAccessConditions accessConditions, Context context)
@@ -192,10 +182,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 258
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-block-list">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-block-list\">Azure Docs</a>.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=blocks \"Sample code for BlockBlobURL.getBlockList\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<BlockBlobGetBlockListResponse> getBlockList(BlockListType listType, LeaseAccessConditions leaseAccessConditions, Context context)
@@ -245,7 +232,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 53
   package: com.microsoft.azure.storage.blob
-  summary: <p>Indicates the maximum number of blocks allowed in a block blob. </p>
+  summary: "<p>Indicates the maximum number of blocks allowed in a block blob. </p>"
   syntax:
     content: public static final int MAX_BLOCKS= 50000
     return:
@@ -265,7 +252,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 48
   package: com.microsoft.azure.storage.blob
-  summary: <p>Indicates the maximum number of bytes that can be sent in a call to stageBlock. </p>
+  summary: "<p>Indicates the maximum number of bytes that can be sent in a call to stageBlock. </p>"
   syntax:
     content: public static final int MAX_STAGE_BLOCK_BYTES= 100 * Constants.MB
     return:
@@ -285,7 +272,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 43
   package: com.microsoft.azure.storage.blob
-  summary: <p>Indicates the maximum number of bytes that can be sent in a call to upload. </p>
+  summary: "<p>Indicates the maximum number of bytes that can be sent in a call to upload. </p>"
   syntax:
     content: public static final int MAX_UPLOAD_BLOB_BYTES= 256 * Constants.MB
     return:
@@ -306,14 +293,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 184
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Uploads the specified block to the block blob's "staging area" to be later committed by a call to commitBlockList. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-block">Azure Docs</a>.</p>
-
-    <p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable 
-
-        </code> must produce the same data each time it is subscribed to.</p>
-
-    <p></p>
+  summary: "<p>Uploads the specified block to the block blob's \"staging area\" to be later committed by a call to commitBlockList. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/put-block\">Azure Docs</a>.</p>\r\n<p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable \r\n    </code> must produce the same data each time it is subscribed to.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=blocks \"Sample code for BlockBlobURL.stageBlock\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<BlockBlobStageBlockResponse> stageBlock(String base64BlockID, Flowable<ByteBuffer> data, long length, LeaseAccessConditions leaseAccessConditions, Context context)
@@ -379,10 +359,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 223
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new block to be committed as part of a blob where the contents are read from a URL. For more information, see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-block-from-url">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Creates a new block to be committed as part of a blob where the contents are read from a URL. For more information, see the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-block-from-url\">Azure Docs</a>.</p>\r\n<p></p>"
   remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=block_from_url "Sample code for BlockBlobURL.stageBlockFromURL")]'
   syntax:
     content: public Single<BlockBlobStageBlockFromURLResponse> stageBlockFromURL(String base64BlockID, URL sourceURL, BlobRange sourceRange, byte[] sourceContentMD5, LeaseAccessConditions leaseAccessConditions, Context context)
@@ -450,16 +427,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 139
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new block blob, or updates the content of an existing block blob. Updating an existing block blob overwrites any existing metadata on the blob. Partial updates are not supported with PutBlob; the content of the existing blob is overwritten with the new content. To perform a partial update of a block blob's, use PutBlock and PutBlockList. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-blob">Azure Docs</a>.</p>
-
-    <p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable 
-
-        </code> must produce the same data each time it is subscribed to.</p>
-
-    <p>For more efficient bulk-upload scenarios, please refer to the <xref uid="com.microsoft.azure.storage.blob._transfer_manager" data-throw-if-not-resolved="false">TransferManager</xref> for convenience methods.</p>
-
-    <p></p>
+  summary: "<p>Creates a new block blob, or updates the content of an existing block blob. Updating an existing block blob overwrites any existing metadata on the blob. Partial updates are not supported with PutBlob; the content of the existing blob is overwritten with the new content. To perform a partial update of a block blob's, use PutBlock and PutBlockList. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/put-blob\">Azure Docs</a>.</p>\r\n<p>Note that the data passed must be replayable if retries are enabled (the default). In other words, the <code>Flowable \r\n    </code> must produce the same data each time it is subscribed to.</p>\r\n<p>For more efficient bulk-upload scenarios, please refer to the <xref uid=\"com.microsoft.azure.storage.blob._transfer_manager\" data-throw-if-not-resolved=\"false\">TransferManager</xref> for convenience methods.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=upload_download \"Sample code for BlockBlobURL.upload\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public Single<BlockBlobUploadResponse> upload(Flowable<ByteBuffer> data, long length, BlobHTTPHeaders headers, Metadata metadata, BlobAccessConditions accessConditions, Context context)
@@ -535,10 +503,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 77
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new <xref uid="com.microsoft.azure.storage.blob._block_blob_u_r_l" data-throw-if-not-resolved="false">BlockBlobURL</xref> with the given pipeline.</p>
-
-    <p></p>
+  summary: "<p>Creates a new <xref uid=\"com.microsoft.azure.storage.blob._block_blob_u_r_l\" data-throw-if-not-resolved=\"false\">BlockBlobURL</xref> with the given pipeline.</p>\r\n<p></p>"
   syntax:
     content: public BlockBlobURL withPipeline(HttpPipeline pipeline)
     parameters:
@@ -564,10 +529,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlockBlobURL.java
     startLine: 94
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a new <xref uid="com.microsoft.azure.storage.blob._block_blob_u_r_l" data-throw-if-not-resolved="false">BlockBlobURL</xref> with the given snapshot.</p>
-
-    <p></p>
+  summary: "<p>Creates a new <xref uid=\"com.microsoft.azure.storage.blob._block_blob_u_r_l\" data-throw-if-not-resolved=\"false\">BlockBlobURL</xref> with the given snapshot.</p>\r\n<p></p>"
   syntax:
     content: public BlockBlobURL withSnapshot(String snapshot)
     parameters:

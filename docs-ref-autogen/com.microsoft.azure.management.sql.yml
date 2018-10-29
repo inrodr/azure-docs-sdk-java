@@ -533,7 +533,7 @@ items:
       repo: https://github.com/Azure/azure-libraries-for-java
     path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/AuthenticationType.java
     startLine: 8
-  summary: <p>This package contains the classes for SqlManagementClient. The Azure SQL Database management API provides a RESTful set of web services that interact with Azure SQL Database services to manage your databases. The API enables you to create, retrieve, update, and delete databases. </p>
+  summary: "<p>This package contains the classes for SqlManagementClient. The Azure SQL Database management API provides a RESTful set of web services that interact with Azure SQL Database services to manage your databases. The API enables you to create, retrieve, update, and delete databases. </p>"
   syntax:
     content: package com.microsoft.azure.management.sql
 references:

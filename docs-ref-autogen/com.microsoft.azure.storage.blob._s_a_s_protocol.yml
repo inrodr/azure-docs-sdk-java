@@ -24,7 +24,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/SASProtocol.java
     startLine: 22
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies the set of possible permissions for a shared access signature protocol. Values of this type can be used to set the fields on the <xref uid="com.microsoft.azure.storage.blob._account_s_a_s_signature_values" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> and <xref uid="com.microsoft.azure.storage.blob._service_s_a_s_signature_values" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> types. </p>
+  summary: "<p>Specifies the set of possible permissions for a shared access signature protocol. Values of this type can be used to set the fields on the <xref uid=\"com.microsoft.azure.storage.blob._account_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> and <xref uid=\"com.microsoft.azure.storage.blob._service_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> types. </p>"
   syntax: &o1
     content: public enum SASProtocol
   inheritance:
@@ -45,7 +45,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/SASProtocol.java
     startLine: 31
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to use SAS only through https or http granted. </p>
+  summary: "<p>Permission to use SAS only through https or http granted. </p>"
   syntax:
     content: public HTTPS_HTTP=(Constants.HTTPS_HTTP)
 - uid: com.microsoft.azure.storage.blob._s_a_s_protocol.HTTPS_ONLY
@@ -63,7 +63,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/SASProtocol.java
     startLine: 26
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to use SAS only through https granted. </p>
+  summary: "<p>Permission to use SAS only through https granted. </p>"
   syntax:
     content: public HTTPS_ONLY=(Constants.HTTPS)
 - uid: com.microsoft.azure.storage.blob._s_a_s_protocol.parse(String)
@@ -82,14 +82,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/SASProtocol.java
     startLine: 52
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Parses a<code>String 
-
-        </code> into a<code>SASProtocl 
-
-        </code> value if possible.</p>
-
-    <p></p>
+  summary: "<p>Parses a<code>String \r\n    </code> into a<code>SASProtocl \r\n    </code> value if possible.</p>\r\n<p></p>"
   syntax:
     content: public static SASProtocol parse(String str)
     parameters:

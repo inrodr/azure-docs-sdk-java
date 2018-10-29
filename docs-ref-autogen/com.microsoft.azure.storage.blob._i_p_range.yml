@@ -27,7 +27,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 24
   package: com.microsoft.azure.storage.blob
-  summary: <p>This type specifies a continuous range of IP addresses. It is used to limit permissions on SAS tokens. Null may be set if it is not desired to confine the sas permissions to an IP range. Please refer to <xref uid="com.microsoft.azure.storage.blob._account_s_a_s_signature_values" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> or <xref uid="com.microsoft.azure.storage.blob._service_s_a_s_signature_values" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> for more information. </p>
+  summary: "<p>This type specifies a continuous range of IP addresses. It is used to limit permissions on SAS tokens. Null may be set if it is not desired to confine the sas permissions to an IP range. Please refer to <xref uid=\"com.microsoft.azure.storage.blob._account_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> or <xref uid=\"com.microsoft.azure.storage.blob._service_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> for more information. </p>"
   syntax: &o1
     content: public class IPRange
   inheritance:
@@ -67,7 +67,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 50
   package: com.microsoft.azure.storage.blob
-  summary: <p>A <xref uid="" data-throw-if-not-resolved="false">Inet4Address</xref> representing the maximum IP address of the range. </p>
+  summary: "<p>A <xref uid=\"\" data-throw-if-not-resolved=\"false\">Inet4Address</xref> representing the maximum IP address of the range. </p>"
   syntax:
     content: public String ipMax()
     return:
@@ -88,7 +88,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 35
   package: com.microsoft.azure.storage.blob
-  summary: <p>A <xref uid="" data-throw-if-not-resolved="false">Inet4Address</xref> representing the minimum IP address of the range. </p>
+  summary: "<p>A <xref uid=\"\" data-throw-if-not-resolved=\"false\">Inet4Address</xref> representing the minimum IP address of the range. </p>"
   syntax:
     content: public String ipMin()
     return:
@@ -127,12 +127,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 94
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a<code>IPRange 
-
-        </code> from the specified string.</p>
-
-    <p></p>
+  summary: "<p>Creates a<code>IPRange \r\n    </code> from the specified string.</p>\r\n<p></p>"
   syntax:
     content: public static IPRange parse(String rangeStr)
     parameters:
@@ -168,10 +163,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 71
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Output the single IP address or range of IP addresses for.</p>
-
-    <p></p>
+  summary: "<p>Output the single IP address or range of IP addresses for.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -196,7 +188,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 57
   package: com.microsoft.azure.storage.blob
-  summary: <p>A <xref uid="" data-throw-if-not-resolved="false">Inet4Address</xref> representing the maximum IP address of the range. </p>
+  summary: "<p>A <xref uid=\"\" data-throw-if-not-resolved=\"false\">Inet4Address</xref> representing the maximum IP address of the range. </p>"
   syntax:
     content: public IPRange withIpMax(String ipMax)
     parameters:
@@ -220,7 +212,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/IPRange.java
     startLine: 42
   package: com.microsoft.azure.storage.blob
-  summary: <p>A <xref uid="" data-throw-if-not-resolved="false">Inet4Address</xref> representing the minimum IP address of the range. </p>
+  summary: "<p>A <xref uid=\"\" data-throw-if-not-resolved=\"false\">Inet4Address</xref> representing the minimum IP address of the range. </p>"
   syntax:
     content: public IPRange withIpMin(String ipMin)
     parameters:

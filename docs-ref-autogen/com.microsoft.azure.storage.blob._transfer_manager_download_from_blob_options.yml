@@ -26,10 +26,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerDownloadFromBlobOptions.java
     startLine: 20
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Configures the parallel download behavior for methods on the<code>TransferManager 
-
-        </code> . </p>
+  summary: "<p>Configures the parallel download behavior for methods on the<code>TransferManager \r\n    </code> . </p>"
   syntax: &o1
     content: public class TransferManagerDownloadFromBlobOptions
   inheritance:
@@ -89,7 +86,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerDownloadFromBlobOptions.java
     startLine: 25
   package: com.microsoft.azure.storage.blob
-  summary: <p>The default download options. </p>
+  summary: "<p>The default download options. </p>"
   syntax:
     content: >-
       public static final TransferManagerDownloadFromBlobOptions DEFAULT=
@@ -172,12 +169,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/TransferManagerDownloadFromBlobOptions.java
     startLine: 74
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Returns an object that configures the parallel download behavior for methods on the<code>TransferManager 
-
-        </code> .</p>
-
-    <p></p>
+  summary: "<p>Returns an object that configures the parallel download behavior for methods on the<code>TransferManager \r\n    </code> .</p>\r\n<p></p>"
   syntax:
     content: public TransferManagerDownloadFromBlobOptions(Long chunkSize, IProgressReceiver progressReceiver, BlobAccessConditions accessConditions, Integer parallelism, ReliableDownloadOptions reliableDownloadOptions)
     parameters:

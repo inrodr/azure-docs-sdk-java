@@ -32,7 +32,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 25
   package: com.microsoft.azure.storage.blob
-  summary: <p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a blob. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid="com.microsoft.azure.storage.blob._service_s_a_s_signature_values" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a blob. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid=\"com.microsoft.azure.storage.blob._service_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>"
   syntax: &o1
     content: public class BlobSASPermission
   inheritance:
@@ -53,7 +53,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 55
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Add access granted. </p>
+  summary: "<p>Specifies Add access granted. </p>"
   syntax:
     content: public boolean add()
     return:
@@ -74,10 +74,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 115
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Initializes a<code>BlobSASPermission 
-
-        </code> object with all fields set to false. </p>
+  summary: "<p>Initializes a<code>BlobSASPermission \r\n    </code> object with all fields set to false. </p>"
   syntax:
     content: public BlobSASPermission()
 - uid: com.microsoft.azure.storage.blob._blob_s_a_s_permission.create()
@@ -96,7 +93,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 70
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Create access granted. </p>
+  summary: "<p>Specifies Create access granted. </p>"
   syntax:
     content: public boolean create()
     return:
@@ -117,7 +114,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 100
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Delete access granted. </p>
+  summary: "<p>Specifies Delete access granted. </p>"
   syntax:
     content: public boolean delete()
     return:
@@ -138,14 +135,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 163
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates a<code>BlobSASPermission 
-
-        </code> from the specified permissions string. This method will throw an <code>IllegalArgumentException 
-
-        </code> if it encounters a character that does not correspond to a valid permission.</p>
-
-    <p></p>
+  summary: "<p>Creates a<code>BlobSASPermission \r\n    </code> from the specified permissions string. This method will throw an <code>IllegalArgumentException \r\n    </code> if it encounters a character that does not correspond to a valid permission.</p>\r\n<p></p>"
   syntax:
     content: public static BlobSASPermission parse(String permString)
     parameters:
@@ -181,7 +171,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 40
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Read access granted. </p>
+  summary: "<p>Specifies Read access granted. </p>"
   syntax:
     content: public boolean read()
     return:
@@ -202,12 +192,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 125
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Converts the given permissions to a<code>String 
-
-        </code> . Using this method will guarantee the permissions are in an order accepted by the service.</p>
-
-    <p></p>
+  summary: "<p>Converts the given permissions to a<code>String \r\n    </code> . Using this method will guarantee the permissions are in an order accepted by the service.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -234,7 +219,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 62
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Add access granted. </p>
+  summary: "<p>Specifies Add access granted. </p>"
   syntax:
     content: public BlobSASPermission withAdd(boolean add)
     parameters:
@@ -258,7 +243,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 77
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Create access granted. </p>
+  summary: "<p>Specifies Create access granted. </p>"
   syntax:
     content: public BlobSASPermission withCreate(boolean create)
     parameters:
@@ -282,7 +267,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 107
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Delete access granted. </p>
+  summary: "<p>Specifies Delete access granted. </p>"
   syntax:
     content: public BlobSASPermission withDelete(boolean delete)
     parameters:
@@ -306,7 +291,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 47
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Read access granted. </p>
+  summary: "<p>Specifies Read access granted. </p>"
   syntax:
     content: public BlobSASPermission withRead(boolean read)
     parameters:
@@ -330,7 +315,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 92
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Write access granted. </p>
+  summary: "<p>Specifies Write access granted. </p>"
   syntax:
     content: public BlobSASPermission withWrite(boolean write)
     parameters:
@@ -354,7 +339,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 85
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies Write access granted. </p>
+  summary: "<p>Specifies Write access granted. </p>"
   syntax:
     content: public boolean write()
     return:

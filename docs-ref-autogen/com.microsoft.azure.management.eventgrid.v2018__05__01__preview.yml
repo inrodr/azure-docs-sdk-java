@@ -81,7 +81,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: eventgrid/resource-manager/v2018_05_01_preview/src/main/java/com/microsoft/azure/management/eventgrid/v2018_05_01_preview/DeadLetterDestination.java
     startLine: 8
-  summary: <p>This package contains the classes for EventGridManagementClient. Azure EventGrid Management Client. </p>
+  summary: "<p>This package contains the classes for EventGridManagementClient. Azure EventGrid Management Client. </p>"
   syntax:
     content: package com.microsoft.azure.management.eventgrid.v2018_05_01_preview
 references:

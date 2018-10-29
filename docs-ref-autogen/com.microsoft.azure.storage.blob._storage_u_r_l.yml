@@ -25,7 +25,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/StorageURL.java
     startLine: 31
   package: com.microsoft.azure.storage.blob
-  summary: <p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>
+  summary: "<p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>"
   syntax:
     content: public class StorageURL
   inheritance:
@@ -46,7 +46,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/StorageURL.java
     startLine: 78
   package: com.microsoft.azure.storage.blob
-  summary: <p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required). </p>
+  summary: "<p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required). </p>"
   syntax:
     content: protected static URL appendToURLPath(URL baseURL, String name)
     parameters:
@@ -78,10 +78,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/StorageURL.java
     startLine: 107
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=service_url \"Sample code for StorageURL.createPipeline\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java)"
   syntax:
     content: public static HttpPipeline createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)

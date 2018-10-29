@@ -158,7 +158,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-graph-rbac/src/main/java/com/microsoft/azure/management/graphrbac/ActiveDirectoryApplication.java
     startLine: 6
-  summary: <p>This package contains the classes for AuthorizationManagementClient. Role based access control provides you a way to apply granular level policy administration down to individual resources or resource groups. These operations enable you to manage role definitions and role assignments. A role definition describes the set of actions that can be performed on resources. A role assignment grants access to Azure Active Directory users. </p>
+  summary: "<p>This package contains the classes for AuthorizationManagementClient. Role based access control provides you a way to apply granular level policy administration down to individual resources or resource groups. These operations enable you to manage role definitions and role assignments. A role definition describes the set of actions that can be performed on resources. A role assignment grants access to Azure Active Directory users. </p>"
   syntax:
     content: package com.microsoft.azure.management.graphrbac
 references:

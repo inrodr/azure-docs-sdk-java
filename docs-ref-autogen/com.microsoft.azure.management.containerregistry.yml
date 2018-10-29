@@ -214,7 +214,7 @@ items:
       repo: https://github.com/Azure/azure-libraries-for-java
     path: azure-mgmt-containerregistry/src/main/java/com/microsoft/azure/management/containerregistry/AccessKeyType.java
     startLine: 5
-  summary: <p>This package contains the classes for ContainerRegistryManagementClient. </p>
+  summary: "<p>This package contains the classes for ContainerRegistryManagementClient. </p>"
   syntax:
     content: package com.microsoft.azure.management.containerregistry
 references:

@@ -26,7 +26,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/CommonRestResponse.java
     startLine: 27
   package: com.microsoft.azure.storage.blob
-  summary: <p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid="com.microsoft.azure.storage.blob._transfer_manager" data-throw-if-not-resolved="false">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>
+  summary: "<p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid=\"com.microsoft.azure.storage.blob._transfer_manager\" data-throw-if-not-resolved=\"false\">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>"
   syntax: &o1
     content: public class CommonRestResponse
   inheritance:

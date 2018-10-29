@@ -78,7 +78,7 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-cdn/src/main/java/com/microsoft/azure/management/cdn/CdnEndpoint.java
     startLine: 6
-  summary: <p>This package contains the classes for CdnManagementClient. Use these APIs to manage Azure CDN resources through the Azure Resource Manager. You must make sure that requests made to these resources are secure. </p>
+  summary: "<p>This package contains the classes for CdnManagementClient. Use these APIs to manage Azure CDN resources through the Azure Resource Manager. You must make sure that requests made to these resources are secure. </p>"
   syntax:
     content: package com.microsoft.azure.management.cdn
 references:

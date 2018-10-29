@@ -30,7 +30,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 25
   package: com.microsoft.azure.storage.blob
-  summary: <p>This is a helper class to construct a string representing the services accessible by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant access to that service. Once all the values are set, this should be serialized with toString and set as the services field on an <xref uid="com.microsoft.azure.storage.blob._account_s_a_s_signature_values" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> object. It is possible to construct the services string without this class, but the order of the services is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the services accessible by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant access to that service. Once all the values are set, this should be serialized with toString and set as the services field on an <xref uid=\"com.microsoft.azure.storage.blob._account_s_a_s_signature_values\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> object. It is possible to construct the services string without this class, but the order of the services is particular and this class guarantees correctness. </p>"
   syntax: &o1
     content: public class AccountSASService
   inheritance:
@@ -51,10 +51,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 98
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Initializes an<code>AccountSASService 
-
-        </code> object with all fields set to false. </p>
+  summary: "<p>Initializes an<code>AccountSASService \r\n    </code> object with all fields set to false. </p>"
   syntax:
     content: public AccountSASService()
 - uid: com.microsoft.azure.storage.blob._account_s_a_s_service.blob()
@@ -73,7 +70,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 38
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access blob resources granted. </p>
+  summary: "<p>Permission to access blob resources granted. </p>"
   syntax:
     content: public boolean blob()
     return:
@@ -94,7 +91,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 53
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access file resources granted. </p>
+  summary: "<p>Permission to access file resources granted. </p>"
   syntax:
     content: public boolean file()
     return:
@@ -115,14 +112,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 138
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Creates an<code>AccountSASService 
-
-        </code> from the specified services string. This method will throw an <code>IllegalArgumentException 
-
-        </code> if it encounters a character that does not correspond to a valid service.</p>
-
-    <p></p>
+  summary: "<p>Creates an<code>AccountSASService \r\n    </code> from the specified services string. This method will throw an <code>IllegalArgumentException \r\n    </code> if it encounters a character that does not correspond to a valid service.</p>\r\n<p></p>"
   syntax:
     content: public static AccountSASService parse(String servicesString)
     parameters:
@@ -158,7 +148,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 68
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access queue resources granted. </p>
+  summary: "<p>Permission to access queue resources granted. </p>"
   syntax:
     content: public boolean queue()
     return:
@@ -179,7 +169,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 83
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access table resources granted. </p>
+  summary: "<p>Permission to access table resources granted. </p>"
   syntax:
     content: public boolean table()
     return:
@@ -200,12 +190,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 108
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Converts the given services to a<code>String 
-
-        </code> . Using this method will guarantee the services are in an order accepted by the service.</p>
-
-    <p></p>
+  summary: "<p>Converts the given services to a<code>String \r\n    </code> . Using this method will guarantee the services are in an order accepted by the service.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -232,7 +217,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 45
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access blob resources granted. </p>
+  summary: "<p>Permission to access blob resources granted. </p>"
   syntax:
     content: public AccountSASService withBlob(boolean blob)
     parameters:
@@ -256,7 +241,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 60
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access file resources granted. </p>
+  summary: "<p>Permission to access file resources granted. </p>"
   syntax:
     content: public AccountSASService withFile(boolean file)
     parameters:
@@ -280,7 +265,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 75
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access queue resources granted. </p>
+  summary: "<p>Permission to access queue resources granted. </p>"
   syntax:
     content: public AccountSASService withQueue(boolean queue)
     parameters:
@@ -304,7 +289,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/AccountSASService.java
     startLine: 90
   package: com.microsoft.azure.storage.blob
-  summary: <p>Permission to access table resources granted. </p>
+  summary: "<p>Permission to access table resources granted. </p>"
   syntax:
     content: public AccountSASService withTable(boolean table)
     parameters:

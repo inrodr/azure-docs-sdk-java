@@ -30,7 +30,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 31
   package: com.microsoft.azure.storage.blob
-  summary: <p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid="com.microsoft.azure.storage.blob._storage_u_r_l" data-throw-if-not-resolved="false">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>
+  summary: "<p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid=\"com.microsoft.azure.storage.blob._storage_u_r_l\" data-throw-if-not-resolved=\"false\">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>"
   syntax: &o1
     content: public class PipelineOptions
   inheritance:
@@ -51,7 +51,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 51
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies which HttpClient to use to send the requests. </p>
+  summary: "<p>Specifies which HttpClient to use to send the requests. </p>"
   syntax:
     content: public HttpClient client()
     return:
@@ -72,7 +72,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 66
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies the logger for the pipeline. </p>
+  summary: "<p>Specifies the logger for the pipeline. </p>"
   syntax:
     content: public HttpPipelineLogger logger()
     return:
@@ -93,7 +93,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 96
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the built-in request logging policy. </p>
+  summary: "<p>Configures the built-in request logging policy. </p>"
   syntax:
     content: public LoggingOptions loggingOptions()
     return:
@@ -114,12 +114,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 132
   package: com.microsoft.azure.storage.blob
-  summary: >-
-    <p>Returns a<code>PipelineOptions 
-
-        </code> object with default values for each of the options fields. An <xref uid="" data-throw-if-not-resolved="false">HttpClient</xref> must still be set explicitly, however.</p>
-
-    <p></p>
+  summary: "<p>Returns a<code>PipelineOptions \r\n    </code> object with default values for each of the options fields. An <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpClient</xref> must still be set explicitly, however.</p>\r\n<p></p>"
   remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=pipeline_options \"Sample code for PipelineOptions constructor\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java) "
   syntax:
     content: public PipelineOptions()
@@ -139,7 +134,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 81
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the retry policy's behavior. </p>
+  summary: "<p>Configures the retry policy's behavior. </p>"
   syntax:
     content: public RequestRetryOptions requestRetryOptions()
     return:
@@ -160,7 +155,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 111
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the built-in telemetry policy behavior. </p>
+  summary: "<p>Configures the built-in telemetry policy behavior. </p>"
   syntax:
     content: public TelemetryOptions telemetryOptions()
     return:
@@ -181,7 +176,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 58
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies which HttpClient to use to send the requests. </p>
+  summary: "<p>Specifies which HttpClient to use to send the requests. </p>"
   syntax:
     content: public PipelineOptions withClient(HttpClient client)
     parameters:
@@ -205,7 +200,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 73
   package: com.microsoft.azure.storage.blob
-  summary: <p>Specifies the logger for the pipeline. </p>
+  summary: "<p>Specifies the logger for the pipeline. </p>"
   syntax:
     content: public PipelineOptions withLogger(HttpPipelineLogger logger)
     parameters:
@@ -229,7 +224,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 103
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the built-in request logging policy. </p>
+  summary: "<p>Configures the built-in request logging policy. </p>"
   syntax:
     content: public PipelineOptions withLoggingOptions(LoggingOptions loggingOptions)
     parameters:
@@ -253,7 +248,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 88
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the retry policy's behavior. </p>
+  summary: "<p>Configures the retry policy's behavior. </p>"
   syntax:
     content: public PipelineOptions withRequestRetryOptions(RequestRetryOptions requestRetryOptions)
     parameters:
@@ -277,7 +272,7 @@ items:
     path: src/main/java/com/microsoft/azure/storage/blob/PipelineOptions.java
     startLine: 118
   package: com.microsoft.azure.storage.blob
-  summary: <p>Configures the built-in telemetry policy behavior. </p>
+  summary: "<p>Configures the built-in telemetry policy behavior. </p>"
   syntax:
     content: public PipelineOptions withTelemetryOptions(TelemetryOptions telemetryOptions)
     parameters:

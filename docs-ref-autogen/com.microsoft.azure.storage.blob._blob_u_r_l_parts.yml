@@ -33,10 +33,10 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-storage-java
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 34
+    startLine: 33
   package: com.microsoft.azure.storage.blob
   summary: "<p>A BlobURLParts object represents the components that make up an Azure Storage Container/Blob URL. You may parse an existing URL into its parts with the <xref uid=\"com.microsoft.azure.storage.blob._u_r_l_parser\" data-throw-if-not-resolved=\"false\">URLParser</xref> class. You may construct a URL from parts by calling toURL(). It is also possible to use the empty constructor to build a blobURL from scratch. NOTE: Changing any SAS-related field requires computing a new SAS signature.</p>\r\n<p></p>"
-  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=url_parts \"Sample code for BlobURLParts\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java) "
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=url_parts \"Sample code for BlobURLParts\")] \r\nFor more samples, please see the [Samples file](https://github.com/Azure/azure-storage-java/blob/master/src/test/java/com/microsoft/azure/storage/Samples.java) "
   syntax: &o1
     content: public class BlobURLParts
   inheritance:
@@ -55,7 +55,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 98
+    startLine: 106
   package: com.microsoft.azure.storage.blob
   summary: "<p>The blob name or<code>null \r\n    </code> if a <xref uid=\"com.microsoft.azure.storage.blob._service_u_r_l\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> or <xref uid=\"com.microsoft.azure.storage.blob._container_u_r_l\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> was parsed. </p>"
   syntax:
@@ -76,7 +76,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 164
+    startLine: 54
   package: com.microsoft.azure.storage.blob
   summary: "<p>Initializes a BlobURLParts object with all fields set to null, except unparsedParameters, which is an empty map. This may be useful for constructing a URL to a blob storage resource from scratch when the constituent parts are already known. </p>"
   syntax:
@@ -95,7 +95,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 83
+    startLine: 91
   package: com.microsoft.azure.storage.blob
   summary: "<p>The container name or<code>null \r\n    </code> if a <xref uid=\"com.microsoft.azure.storage.blob._service_u_r_l\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> was parsed. </p>"
   syntax:
@@ -116,7 +116,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 68
+    startLine: 76
   package: com.microsoft.azure.storage.blob
   summary: "<p>The host. Ex: \"account.blob.core.windows.net\". </p>"
   syntax:
@@ -137,7 +137,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 129
+    startLine: 137
   package: com.microsoft.azure.storage.blob
   summary: "<p>A <xref uid=\"com.microsoft.azure.storage.blob._s_a_s_query_parameters\" data-throw-if-not-resolved=\"false\">SASQueryParameters</xref> representing the SAS query parameters or<code>null \r\n    </code> if there were no such parameters. </p>"
   syntax:
@@ -158,7 +158,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 53
+    startLine: 61
   package: com.microsoft.azure.storage.blob
   summary: "<p>The scheme. Ex: \"https://\". </p>"
   syntax:
@@ -179,7 +179,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 113
+    startLine: 121
   package: com.microsoft.azure.storage.blob
   summary: "<p>The snapshot time or<code>null \r\n    </code> if anything except a URL to a snapshot was parsed. </p>"
   syntax:
@@ -200,7 +200,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 177
+    startLine: 176
   package: com.microsoft.azure.storage.blob
   summary: "<p>Converts the blob URL parts to a <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref>.</p>\r\n<p></p>"
   syntax:
@@ -210,7 +210,7 @@ items:
       description: >-
         <p>A<code>java.net.URL 
 
-            </code> to the blob resource composed of all the elements in the object. </p>
+            </code> to the blob resource composed of all the elements in the object.</p>
   exceptions:
   - type: 7f45ead7
     description: <p>The fields present on the BlobURLParts object were insufficient to construct a valid URL or were ill-formatted. </p>
@@ -228,7 +228,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 146
+    startLine: 154
   package: com.microsoft.azure.storage.blob
   summary: "<p>The query parameter key value pairs aside from SAS parameters and snapshot time or<code>null \r\n    </code> if there were no such parameters. </p>"
   syntax:
@@ -249,7 +249,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 105
+    startLine: 113
   package: com.microsoft.azure.storage.blob
   summary: "<p>The blob name or<code>null \r\n    </code> if a <xref uid=\"com.microsoft.azure.storage.blob._service_u_r_l\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> or <xref uid=\"com.microsoft.azure.storage.blob._container_u_r_l\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> was parsed. </p>"
   syntax:
@@ -273,7 +273,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 90
+    startLine: 98
   package: com.microsoft.azure.storage.blob
   summary: "<p>The container name or<code>null \r\n    </code> if a <xref uid=\"com.microsoft.azure.storage.blob._service_u_r_l\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> was parsed. </p>"
   syntax:
@@ -297,7 +297,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 75
+    startLine: 83
   package: com.microsoft.azure.storage.blob
   summary: "<p>The host. Ex: \"account.blob.core.windows.net\". </p>"
   syntax:
@@ -321,7 +321,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 137
+    startLine: 145
   package: com.microsoft.azure.storage.blob
   summary: "<p>A <xref uid=\"com.microsoft.azure.storage.blob._s_a_s_query_parameters\" data-throw-if-not-resolved=\"false\">SASQueryParameters</xref> representing the SAS query parameters or<code>null \r\n    </code> if there were no such parameters. </p>"
   syntax:
@@ -345,7 +345,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 60
+    startLine: 68
   package: com.microsoft.azure.storage.blob
   summary: "<p>The scheme. Ex: \"https://\". </p>"
   syntax:
@@ -369,7 +369,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 120
+    startLine: 128
   package: com.microsoft.azure.storage.blob
   summary: "<p>The snapshot time or<code>null \r\n    </code> if anything except a URL to a snapshot was parsed. </p>"
   syntax:
@@ -393,7 +393,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 154
+    startLine: 162
   package: com.microsoft.azure.storage.blob
   summary: "<p>The query parameter key value pairs aside from SAS parameters and snapshot time or<code>null \r\n    </code> if there were no such parameters. </p>"
   syntax:
@@ -404,6 +404,11 @@ items:
     return:
       type: com.microsoft.azure.storage.blob._blob_u_r_l_parts
 references:
+- uid: com.microsoft.azure.storage.blob._blob_u_r_l_parts.BlobURLParts*
+  name: BlobURLParts
+  nameWithType: BlobURLParts.BlobURLParts
+  fullName: com.microsoft.azure.storage.blob.BlobURLParts.BlobURLParts
+  package: com.microsoft.azure.storage.blob
 - uid: "26831127"
   spec.java:
   - name: String
@@ -481,11 +486,6 @@ references:
   name: withUnparsedParameters
   nameWithType: BlobURLParts.withUnparsedParameters
   fullName: com.microsoft.azure.storage.blob.BlobURLParts.withUnparsedParameters
-  package: com.microsoft.azure.storage.blob
-- uid: com.microsoft.azure.storage.blob._blob_u_r_l_parts.BlobURLParts*
-  name: BlobURLParts
-  nameWithType: BlobURLParts.BlobURLParts
-  fullName: com.microsoft.azure.storage.blob.BlobURLParts.BlobURLParts
   package: com.microsoft.azure.storage.blob
 - uid: 7f45ead7
   spec.java:
